@@ -1,4 +1,5 @@
 import Image from 'next/image'
+import Link from 'next/link'
 import { TypewriterEffectSmooth } from './ui/TypewriterEffect'
 export default function HomeHero() {
   const words = [
@@ -15,7 +16,7 @@ export default function HomeHero() {
   return (
     <div className="flex h-screen w-full flex-col items-center gap-4 px-4 pt-20">
       <div className="flex-row items-center justify-center">
-        <h1 className="flex-row justify-center text-center text-4xl font-bold sm:flex md:text-start">
+        <h1 className="flex-row justify-center gap-2 text-center text-4xl font-bold sm:flex md:text-start">
           <div className="motion-rotate-loop-25 m-0 p-0">👋🏻</div> Hey, I&apos;m
           Nelson Silva Neto
         </h1>
@@ -35,6 +36,9 @@ export default function HomeHero() {
           />
         </div>
       </div>
+      <Link href="#About" target="_blank" className="animate-bounce sm:hidden">
+        🏀
+      </Link>
     </div>
   )
 }

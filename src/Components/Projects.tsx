@@ -4,7 +4,7 @@ import { CardBody, CardContainer, CardItem } from './ui/3d-card'
 export default function Projects() {
   return (
     <div className="space-y-4" id="Projects">
-      <h1 className="text-4xl font-bold">Projectos</h1>
+      <h1 className="text-4xl font-bold">Projetos</h1>
 
       <div className="grid w-full grid-cols-1">
         <div className="grid grid-cols-1">
