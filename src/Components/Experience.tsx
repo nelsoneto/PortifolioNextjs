@@ -38,7 +38,7 @@ export default function Experience() {
 
   return (
     <div id="Experience" className="space-y-4">
-      <h1 className="text-4xl font-bold">Experiência</h1>
+      <h1 className="text-4xl font-bold text-neutral-300">Experiência</h1>
       <p className="mt-4">
         Já trabalhei em uma variedade de projetos, tanto pessoais quanto
         profissionais. Esses projetos variam de aplicativos da web a aplicativos
@@ -55,7 +55,7 @@ export default function Experience() {
             >
               <div className="flex items-center space-x-1">
                 {icon}
-                <p className="text-xs">{name}</p>
+                <p className="text-xs text-neutral-300">{name}</p>
               </div>
             </HoverBorderGradient>
           ))}
