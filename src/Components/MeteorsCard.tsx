@@ -2,7 +2,7 @@
 import { motion } from 'framer-motion'
 import Image from 'next/image'
 import Link from 'next/link'
-import { Meteors } from './ui/meteors'
+import { Meteors } from './ui/Meteors'
 
 export function MeteorsCard() {
   return (
