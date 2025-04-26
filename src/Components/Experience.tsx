@@ -45,7 +45,7 @@ export default function Experience() {
         móveis, abrangendo uma ampla gama de tecnologias e ferramentas.
       </p>
       <div className="flex-row space-y-2">
-        <div className="flex gap-2 overflow-x-auto py-6">
+        <div className="flex gap-2 overflow-x-auto py-2">
           {Object.values(reactIcons).map(({ icon, name }, index) => (
             <HoverBorderGradient
               key={index}

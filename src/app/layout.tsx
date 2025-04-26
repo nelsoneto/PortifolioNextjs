@@ -37,7 +37,7 @@ export default function RootLayout({
           {/* Left */}
           <HomeHero />
           {/* Right */}
-          <div className="relative z-20 flex max-h-screen flex-col overflow-y-scroll">
+          <div className="relative z-20 flex max-h-screen flex-col overflow-y-scroll pr-0 xl:pr-32">
             {children}
           </div>
           <ShootingStars />
